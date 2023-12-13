@@ -1,5 +1,5 @@
 import React, { } from 'react';
-import A1 from '../../Videos/A1.mp4';
+import A1 from '../Videos/A1.mp4';
 
 export default function PageContentA1() {
 

@@ -1,9 +1,9 @@
 import './App.css';
-import NavigationBarA from './Components/Project A/Navigation Bar A';
-import PageContentA1 from './Components/Project A/PageContent A 1';
-import PageContentA2 from './Components/Project A/PageContent A 2';
-import PageContentA3 from './Components/Project A/PageContent A 3';
-import Footer from './Components/Project A/Footer A';
+import NavigationBarA from './Components/Navigation Bar';
+import PageContentA1 from './Components/PageContent1';
+import PageContentA2 from './Components/PageContent2';
+import PageContentA3 from './Components/PageContent3';
+import Footer from './Components/Footer';
 
 function App() {
   return (

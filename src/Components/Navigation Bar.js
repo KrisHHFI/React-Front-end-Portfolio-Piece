@@ -1,6 +1,6 @@
 import React, { } from 'react';
-import '../../App.css';
-import CompanyALogo from '../../Images/Company A Logo.png';
+import '../App.css';
+import CompanyALogo from '../Images/Company A Logo.png';
 
 
 export default function NavigationBarA() {
@@ -16,7 +16,7 @@ export default function NavigationBarA() {
                     Products
                 </div>
                 <div class="NavBarA-Link">
-                    Blog
+                    Our Story
                 </div>
                 <div class="NavBarA-Link">
                     About

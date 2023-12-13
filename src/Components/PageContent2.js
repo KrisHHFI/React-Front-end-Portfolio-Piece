@@ -1,5 +1,5 @@
 import React, { } from 'react';
-import A2Image from '../../Images/A2Image.png';
+import A2Image from '../Images/Content2Image.png';
 
 export default function PageContentA2() {
 
