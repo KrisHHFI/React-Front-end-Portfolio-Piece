@@ -4,7 +4,7 @@ export default function PageContentA3() {
   
 
     return (
-        <div>
+        <div class = "PageContentA3">
             PageContent A 3
         </div>
     );
