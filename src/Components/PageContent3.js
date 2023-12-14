@@ -4,7 +4,7 @@ import Product from '../Images/Product.png';
 export default function PageContentA3() {
     return (
         <div class="PageContentA3">
-            <div class="A3Title">
+            <div class="SectionTitle Section3Title">
                 Products
             </div>
             <div class="Product">

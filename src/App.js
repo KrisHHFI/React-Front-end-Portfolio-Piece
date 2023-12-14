@@ -3,6 +3,7 @@ import NavigationBarA from './Components/Navigation Bar';
 import PageContentA1 from './Components/PageContent1';
 import PageContentA2 from './Components/PageContent2';
 import PageContentA3 from './Components/PageContent3';
+import PageContent4 from './Components/PageContent4';
 import Footer from './Components/Footer';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
        <PageContentA1 />
        <PageContentA2 />
        <PageContentA3 />
+       <PageContent4 />
        <Footer />
     </div>
   );
