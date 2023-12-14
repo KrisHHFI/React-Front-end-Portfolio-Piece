@@ -156,6 +156,7 @@
 
 .PageContent4 {
   background-color: white;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -246,4 +247,45 @@
   height: 100%;
   overflow: hidden;
   border-radius: 30px;
+}
+
+.PageContent6 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 120px 30px 0 30px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.PageContent6Container {
+  height: 550px;
+  width: 500px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+.PageContent6Form {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  justify-content: space-between; 
+  align-content: center;
+  width: 80%;
+  padding: 35px 25px 0 25px;
+}
+
+.PageContent6Form input {
+  border: transparent;
+  border-bottom: 2px solid gray;
+  height: 30px;
+}
+
+.FormButton {
+  background-color: black;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  width: 90px;
+  border-radius: 10px;
 }
