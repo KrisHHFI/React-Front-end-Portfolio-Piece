@@ -7,7 +7,7 @@ export default function PageContent4() {
     return (
         <div class="PageContent4">
             <div class="SectionTitle">
-                Our story so far...
+                Our Story
             </div>
             <div class="TimelineItem">
                 <div class="TimelineImageContainer ImageRight">
