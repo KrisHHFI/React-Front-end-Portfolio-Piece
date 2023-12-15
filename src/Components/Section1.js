@@ -1,8 +1,7 @@
 import React, { } from 'react';
-import A1 from '../Videos/A1.mp4';
+import HeroVideo from '../Videos/HeroVideo.mp4';
 
-export default function PageContentA1() {
-
+export default function Section1() {
 
     return (
         <div className="PageContentA1">
@@ -10,7 +9,7 @@ export default function PageContentA1() {
                 Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.
             </div>
             <video
-                className="A1Video" autoPlay loop muted> <source src={A1} type="video/mp4" alt="Credit: TSGLY HA, Pexels" />
+                className="A1Video" autoPlay loop muted> <source src={HeroVideo} type="video/mp4" alt="Credit: TSGLY HA, Pexels" />
             </video>
         </div>
     );

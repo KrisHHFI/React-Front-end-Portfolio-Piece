@@ -1,7 +1,6 @@
 import React, { } from 'react';
-import About from '../Images/About.png';
 
-export default function PageContent6() {
+export default function Section6() {
 
     return (
         <div class="PageContent6">

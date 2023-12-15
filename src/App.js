@@ -1,23 +1,23 @@
 import './App.css';
-import NavigationBarA from './Components/Navigation Bar';
-import PageContentA1 from './Components/PageContent1';
-import PageContentA2 from './Components/PageContent2';
-import PageContentA3 from './Components/PageContent3';
-import PageContent4 from './Components/PageContent4';
-import PageContent5 from './Components/PageContent5';
-import PageContent6 from './Components/PageContent6';
+import NavigationBar from './Components/NavigationBar';
+import Section1 from './Components/Section1';
+import Section2 from './Components/Section2';
+import Section3 from './Components/Section3';
+import Section4 from './Components/Section4';
+import Section5 from './Components/Section5';
+import Section6 from './Components/Section6';
 import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
-       <NavigationBarA />
-       <PageContentA1 />
-       <PageContentA2 />
-       <PageContentA3 />
-       <PageContent4 />
-       <PageContent5 />
-       <PageContent6 />
+       <NavigationBar />
+       <Section1 />
+       <Section2 />
+       <Section3 />
+       <Section4 />
+       <Section5 />
+       <Section6 />
        <Footer />
     </div>
   );

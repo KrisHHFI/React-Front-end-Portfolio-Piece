@@ -1,9 +1,9 @@
 import React, { } from 'react';
 import '../App.css';
-import CompanyALogo from '../Images/Company A Logo.png';
+import CompanyALogo from '../Images/CompanyALogo.png';
 
 
-export default function NavigationBarA() {
+export default function NavigationBar() {
 
 
     return (

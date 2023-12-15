@@ -1,7 +1,7 @@
 import React, { } from 'react';
 import About from '../Images/About.png';
 
-export default function PageContent5() {
+export default function Section5() {
 
 
     return (

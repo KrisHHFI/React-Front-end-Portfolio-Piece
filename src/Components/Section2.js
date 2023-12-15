@@ -1,7 +1,7 @@
 import React, { } from 'react';
-import A2Image from '../Images/Content2Image.png';
+import Image1 from '../Images/Image1.png';
 
-export default function PageContentA2() {
+export default function Section2() {
 
 
     return (
@@ -17,7 +17,7 @@ export default function PageContentA2() {
                 </div>
             </div>
             <div class="A2ImageContainer">
-                <img class="A2Image" src={A2Image} />
+                <img class="A2Image" src={Image1} />
             </div>
         </div>
     );

@@ -1,7 +1,7 @@
 import React, { } from 'react';
 import TimelineImage from '../Images/TimelineImage.png';
 
-export default function PageContent4() {
+export default function Section4() {
 
 
     return (
