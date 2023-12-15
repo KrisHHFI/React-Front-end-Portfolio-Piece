@@ -3,14 +3,13 @@ import About from '../Images/About.png';
 
 export default function PageContent6() {
 
-
     return (
         <div class="PageContent6">
             <div class="SectionTitle">
                 Contact
             </div>
-            <div class="PageContent6Container">
-                <form  class="PageContent6Form">
+            <div className="PageContent6FormContainer">
+                <form class="PageContent6Form">
                     <input
                         type="text"
                         placeholder="First Name*"
@@ -31,13 +30,12 @@ export default function PageContent6() {
                         type="text"
                         placeholder="Email*"
                     />
-                    <textarea type="text"
+                    <textarea style={{ resize: 'none' }} type="text"
                         placeholder="Message*"
                     />
-                    <div>
-                        <input
-                            type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                        <label for="vehicle1"> I agree to the terms and conditions.</label>
+                    <div className="PageContent6FormCheckBoxContainer">
+                        <input type="checkbox" id="TermsAndConditions" name="TermsAndConditions" />
+                        <label for="TermsAndConditions"> I agree to the terms and conditions.</label>
                     </div>
                     <div class="FormButton">
                         Excepteur

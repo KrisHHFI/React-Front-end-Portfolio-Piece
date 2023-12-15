@@ -191,9 +191,7 @@
   text-align: Right;
 }
 
-.TimelineText {
- 
-}
+.TimelineText {}
 
 .TimelineImageContainer {
   flex: 1;
@@ -254,32 +252,54 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 120px 30px 0 30px;
-  position: relative;
-  min-height: 100vh;
-}
-
-.PageContent6Container {
-  height: 550px;
-  width: 500px;
-  border-radius: 30px;
-  border: 2px solid black;
+  height: 100vh;
 }
 
 .PageContent6Form {
+  border-radius: 30px;
+  border: 2px solid black;
   display: flex;
   flex-direction: column;
-  height: 85%;
-  justify-content: space-between; 
-  align-content: center;
-  width: 80%;
-  padding: 35px 25px 0 25px;
+  height: 550px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.PageContent6FormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .PageContent6Form input {
   border: transparent;
   border-bottom: 2px solid gray;
   height: 30px;
+  width: 70%;
+  margin: 10px 0 10px 0;
+}
+
+.PageContent6Form textarea {
+  border: transparent;
+  border-bottom: 2px solid gray;
+  height: 60px;
+  width: 70%;
+}
+
+.PageContent6FormCheckBoxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.PageContent6FormCheckBoxContainer label {
+  flex: 3;
+}
+
+.PageContent6FormCheckBoxContainer input {
+  flex: 1;
 }
 
 .FormButton {
@@ -288,4 +308,25 @@
   padding: 10px 15px 10px 15px;
   width: 90px;
   border-radius: 10px;
+  margin-top: 10px;
+}
+
+.Footer {
+  background-color: black;
+  color: white;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialIcons {
+  position: absolute;
+  left: 10%;
+}
+
+.socialIcons img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
 }
