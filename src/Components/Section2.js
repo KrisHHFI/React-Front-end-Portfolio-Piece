@@ -3,7 +3,6 @@ import Image1 from '../Images/Image1.png';
 
 export default function Section2() {
 
-
     return (
         <div class="PageContentA2">
             <div class="A2TextContainer">
