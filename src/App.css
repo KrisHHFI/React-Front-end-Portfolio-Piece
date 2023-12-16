@@ -59,7 +59,7 @@ a {
   object-fit: cover;
 }
 
-.PageContentA2 {
+.Section2 {
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -67,23 +67,23 @@ a {
   padding: 0 15vw 0 15vw;
 }
 
-.A2TextContainer {
+.Section2TextContainer {
   flex: 1;
 }
 
-.A2TextTitle {
+.Section2TextTitle {
   color: #0082ba;
   font-weight: bold;
   font-size: 40px;
 }
 
-.A2Text {
+.Section2Text {
   font-size: 18px;
   text-align: left;
   padding-top: 40px;
 }
 
-.A2ImageContainer {
+.Section2ImageContainer {
   flex: 1;
   display: flex;
   align-items: center;
@@ -92,12 +92,12 @@ a {
   height: 100%;
 }
 
-.A2Image {
+.Section2ImageContainer img {
   width: 80%;
   object-fit: cover;
 }
 
-.PageContentA3 {
+.Section3 {
   background-color: black;
   display: flex;
   flex-wrap: wrap;
