@@ -2,35 +2,40 @@
   text-align: center;
 }
 
-.NavBarA {
+.NavBar {
   align-items: center;
   background-color: black;
   color: white;
   display: flex;
   height: 12.5vh;
   justify-content: space-between;
+  font-size: 20px;
 }
 
-.NavBarA-LogoContainer {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.NavBarLogo {
   align-items: center;
   display: flex;
   flex-basis: 30%;
-  height: 12.5vh;
   justify-content: center;
-  overflow: hidden;
-}
-
-.NavBarA-Logo {
   height: 80%;
 }
 
-.NavBarA-LinkContainer {
+.NavBarLogo img, a {
+  height: 80%;
+}
+
+.NavBarLinks {
   display: flex;
   flex-grow: 1;
   justify-content: center;
 }
 
-.NavBarA-Link {
+.NavBarLinks a {
   padding: 0 40px 0 40px;
 }
 

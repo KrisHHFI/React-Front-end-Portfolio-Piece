@@ -5,7 +5,7 @@ export default function Section4() {
 
 
     return (
-        <div class="PageContent4">
+        <div class="PageContent4" id="Section4">
             <div class="SectionTitle">
                 Our Story
             </div>

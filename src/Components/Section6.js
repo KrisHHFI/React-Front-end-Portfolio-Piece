@@ -3,7 +3,7 @@ import React, { } from 'react';
 export default function Section6() {
 
     return (
-        <div class="PageContent6">
+        <div class="PageContent6" id="Section6">
             <div class="SectionTitle">
                 Contact
             </div>

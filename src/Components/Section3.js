@@ -3,7 +3,7 @@ import Product from '../Images/Product.png';
 
 export default function Section3() {
     return (
-        <div class="PageContentA3">
+        <div class="PageContentA3" id="Section3">
             <div class="SectionTitle Section3Title">
                 Products
             </div>
