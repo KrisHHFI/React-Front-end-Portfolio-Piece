@@ -2,31 +2,29 @@
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .NavBar {
   align-items: center;
   background-color: black;
   color: white;
   display: flex;
   height: 12.5vh;
-  justify-content: space-between;
   font-size: 20px;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .NavBarLogo {
-  align-items: center;
   display: flex;
   flex-basis: 30%;
   justify-content: center;
-  height: 80%;
 }
 
-.NavBarLogo img, a {
-  height: 80%;
+.NavBarLogo img,
+.NavBarLogo a {
+  height: 10vh;
 }
 
 .NavBarLinks {
@@ -35,8 +33,41 @@ a {
   justify-content: center;
 }
 
+.NavBarLinks span {
+  display: none;
+}
+
 .NavBarLinks a {
-  padding: 0 40px 0 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .NavBar {
+    justify-content: center;
+  }
+
+  .NavBarLogo {
+    flex: 1;
+    flex-basis: 0%;
+  }
+
+  .NavBarLinks a {
+    display: none;
+  }
+
+  .NavBarLinks span {
+    display: inline;
+    transition: transform 0.5s ease-in-out;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 9vh;
+  }
+
+  .NavBarLinks span:hover {
+    transform: rotate(-90deg);
+  }
 }
 
 .Section1 {

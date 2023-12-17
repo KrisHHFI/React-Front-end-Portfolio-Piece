@@ -3,7 +3,6 @@ import About from '../Images/About.png';
 
 export default function Section5() {
 
-
     return (
         <div class="PageContent5" id="Section5">
             <div class="SectionTitle Section3Title">

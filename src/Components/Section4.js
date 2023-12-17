@@ -3,7 +3,6 @@ import TimelineImage from '../Images/TimelineImage.png';
 
 export default function Section4() {
 
-
     return (
         <div class="PageContent4" id="Section4">
             <div class="SectionTitle">
