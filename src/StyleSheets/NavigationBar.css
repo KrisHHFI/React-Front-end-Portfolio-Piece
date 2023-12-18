@@ -1,0 +1,95 @@
+.NavBar {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    height: 12.5vh;
+}
+
+.NavBarLogo {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
+}
+
+.NavBarLogo img,
+.NavBarLogo a {
+    height: 10vh;
+}
+
+.NavBarLinks {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.BurgerNav {
+    display: none;
+}
+
+.NavBarLinks a {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.BurgerNav {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .NavBar {
+        justify-content: center;
+    }
+
+    .NavBarLogo {
+        flex: 1;
+        flex-basis: 0%;
+    }
+
+    .NavBarLinks {
+        display: none;
+    }
+
+    .BurgerNav {
+        display: flex;
+        flex-grow: 1;
+        height: inherit;
+        justify-content: center;
+        z-index: 99999;
+    }
+
+    .BurgerNavLinks {
+        background-color: black;
+        border: 2px solid white;
+        box-sizing: border-box;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        right: 0;
+        top: 12.5vh;
+        width: 100vw;
+    }
+
+    .BurgerNavLinks a {
+        padding: 8px 0 8px 0;
+    }
+
+    .BurgerNavIcon {
+        display: flex;
+    }
+
+    .BurgerNav:hover .BurgerNavLinks {
+        display: flex;
+    }
+
+    .BurgerNavIcon span {
+        font-size: 9vh;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .BurgerNav:hover .BurgerNavIcon span {
+        transform: rotate(-90deg);
+    }
+}
