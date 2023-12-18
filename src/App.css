@@ -33,13 +33,17 @@ a {
   justify-content: center;
 }
 
-.NavBarLinks span {
+.BurgerNav {
   display: none;
 }
 
 .NavBarLinks a {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.BurgerNav {
+  display: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -52,20 +56,59 @@ a {
     flex-basis: 0%;
   }
 
-  .NavBarLinks a {
+  .NavBarLinks {
     display: none;
   }
 
-  .NavBarLinks span {
+  .BurgerNav {
+
+    display: flex;
+
+    flex-grow: 1;
+    z-index: 99999;
+    height: inherit;
+
+    justify-content: center;
+    position: relative;
+  }
+
+  .BurgerNavLinks {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 12.5vh;
+    height: fit-content;
+    justify-content: center;
+
+    position: absolute;
+    top: 12.5vh;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .BurgerNavLinks a {
+    padding: 5px 0 5px 0;
+  }
+
+  .BurgerNavIcon {
+    display: flex;
+
+  }
+
+
+  .BurgerNavIcon span {
     display: inline;
     transition: transform 0.5s ease-in-out;
     align-items: center;
     display: flex;
     justify-content: center;
     font-size: 9vh;
+
   }
 
-  .NavBarLinks span:hover {
+  .BurgerNav span:hover {
     transform: rotate(-90deg);
   }
 }

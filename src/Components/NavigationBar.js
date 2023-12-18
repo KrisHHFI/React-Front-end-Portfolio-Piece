@@ -12,13 +12,23 @@ export default function NavigationBar() {
                 <a href="#NavBar"><img src={CompanyALogo} /></a>
             </div>
             <div class="NavBarLinks">
-                <span>
-                    <FontAwesomeIcon icon={faBars} />
-                </span>
                 <a href="#Section3">Products</a>
                 <a href="#Section4">Our Story</a>
                 <a href="#Section5">About</a>
                 <a href="#Section6">Contact</a>
+            </div>
+            <div class="BurgerNav">
+                <div class="BurgerNavIcon">
+                    <span>
+                        <FontAwesomeIcon icon={faBars} />
+                    </span>
+                </div>
+                <div class="BurgerNavLinks">
+                    <a href="#Section3">Products</a>
+                    <a href="#Section4">Our Story</a>
+                    <a href="#Section5">About</a>
+                    <a href="#Section6">Contact</a>
+                </div>
             </div>
         </div >
     );
