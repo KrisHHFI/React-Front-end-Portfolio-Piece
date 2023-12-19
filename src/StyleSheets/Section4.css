@@ -1,25 +1,25 @@
 .PageContent4 {
+    align-items: center;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    min-height: calc(100vh - 100px);
     padding: 100px 0 30px 0;
     position: relative;
-    min-height: calc(100vh - 100px);
 }
 
-.TimelineItem {
-    width: 60%;
+.TimelineItem { 
     display: flex;
     margin-bottom: 40px;
+    width: 60%;
 }
 
 .TimelineTextContainer {
-    flex: 4;
-    justify-content: center;
     display: flex;
+    flex: 4;
     flex-direction: column;
+    justify-content: center;
 }
 
 .TimelineTitle {
@@ -36,9 +36,9 @@
 }
 
 .TimelineImageContainer {
-    flex: 1;
-    display: flex;
     align-items: center;
+    display: flex;
+    flex: 1;
 }
 
 .ImageLeft {

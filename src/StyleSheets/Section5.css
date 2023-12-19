@@ -1,26 +1,26 @@
 .PageContent5 {
+    align-content: center;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    min-height: calc(100vh - 100px);
     padding-top: 100px;
     position: relative;
-    min-height: calc(100vh - 100px);
 }
 
 .PageContent5Child {
     background-color: white;
     border-radius: 30px;
-    width: 500px;
-    margin: 20px;
     display: flex;
     flex-direction: column;
-    position: relative;
     justify-content: center;
+    margin: 20px;
+    position: relative;
+    width: 500px;
 }
 
 .PageContent5Child img {
-    width: 100%;
     border-radius: 30px;
+    width: 100%;
 }
