@@ -2,6 +2,7 @@ import './App.css';
 import './StyleSheets/NavigationBar.css';
 import './StyleSheets/Section1.css';
 import './StyleSheets/Section2.css';
+import './StyleSheets/Section3.css';
 import NavigationBar from './Components/NavigationBar';
 import Section1 from './Components/Section1';
 import Section2 from './Components/Section2';

@@ -1,0 +1,77 @@
+.Section3 {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 30px 30px 30px;
+    position: relative;
+}
+
+.Product {
+    background-color: white;
+    border-radius: 30px;
+    height: 550px;
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.ProductImageContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 30px 30px 0 0;
+}
+
+.ProductTextContainer {
+    flex: 1;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-top: 2px solid black;
+}
+
+.ProductText {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.ProductTextButton {
+    border: 2px solid black;
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    padding: 10px 15px 10px 15px;
+}
+
+/* Mobile portrait view*/
+@media screen and (max-width: 800px) {
+    .Product {
+        height: 500px;
+        width: 300px;
+    }
+}
+
+/* Mobile landscape view*/
+@media screen and (max-height: 600px) {
+    .Product {
+        height: 350px;
+        width: 250px;
+    }
+
+    .ProductText {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .ProductTextButton {
+        bottom: 0;
+        transform: translate(-50%, -50%);
+        left: 50%;
+    }
+}
