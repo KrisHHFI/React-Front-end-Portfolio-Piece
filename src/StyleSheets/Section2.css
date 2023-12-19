@@ -1,0 +1,51 @@
+.Section2 {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding: 5px 15vw 5px 15vw;
+}
+
+.Section2TextContainer {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Section2TextTitle {
+    color: #0082ba;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Section2Text {
+    font-size: 18px;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.Section2ImageContainer {
+    align-items: center;
+    flex: 1;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.Section2ImageContainer img {
+    object-fit: cover;
+    width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+    .Section2ImageContainer {
+        display: none;
+    }
+
+    .Section2 {
+        padding: 0 5vw 0 5vw;
+    }
+}
