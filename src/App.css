@@ -17,64 +17,6 @@ a {
   color: white;
 }
 
-.PageContent4 {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 120px 30px 30px 30px;
-  position: relative;
-}
-
-.TimelineItem {
-  width: 60%;
-  display: flex;
-  margin-bottom: 40px;
-}
-
-.TimelineTextContainer {
-  flex: 2;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.TimelineTitle {
-  font-size: 30px;
-  padding-bottom: 15px;
-}
-
-.TextLeft {
-  text-align: left;
-}
-
-.TextRight {
-  text-align: Right;
-}
-
-.TimelineText {}
-
-.TimelineImageContainer {
-  flex: 1;
-  display: flex;
-  align-items: center;
-}
-
-.ImageLeft {
-  margin-left: 25px;
-}
-
-.ImageRight {
-  justify-content: right;
-  margin-right: 25px;
-}
-
-.TimelineImage {
-  height: 200px;
-}
-
 .PageContent5 {
   background-color: black;
   position: relative;

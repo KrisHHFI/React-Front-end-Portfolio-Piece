@@ -1,0 +1,70 @@
+.PageContent4 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0 30px 0;
+    position: relative;
+}
+
+.TimelineItem {
+    width: 60%;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.TimelineTextContainer {
+    flex: 4;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.TimelineTitle {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.TextLeft {
+    text-align: left;
+}
+
+.TextRight {
+    text-align: Right;
+}
+
+.TimelineImageContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.ImageLeft {
+    margin-left: 25px;
+}
+
+.ImageRight {
+    justify-content: right;
+    margin-right: 25px;
+}
+
+.TimelineImage {
+    height: 150px;
+}
+
+@media screen and (max-width: 1000px) {
+    .TimelineItem {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .TimelineItem {
+        width: 95%;
+    }
+
+    .TimelineImage {
+        height: 125px;
+    }
+}
