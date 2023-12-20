@@ -1,0 +1,33 @@
+.Footer {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+}
+
+.socialIcons {
+    position: absolute;
+    left: 10%;
+}
+
+.socialIcons img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .Footer {
+        font-size: 10px;
+    }
+
+    .socialIcons {
+        position: static;
+    }
+
+    .socialIcons img {
+        height: 30px;
+        margin-right: 5px;
+    }
+}

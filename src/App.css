@@ -20,23 +20,3 @@ a {
 .Section3Title {
   color: white;
 }
-
-.Footer {
-  background-color: black;
-  color: white;
-  height: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.socialIcons {
-  position: absolute;
-  left: 10%;
-}
-
-.socialIcons img {
-  width: 40px;
-  height: 40px;
-  margin-right: 15px;
-}

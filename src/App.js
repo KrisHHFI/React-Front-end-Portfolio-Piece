@@ -6,6 +6,7 @@ import './StyleSheets/Section3.css';
 import './StyleSheets/Section4.css';
 import './StyleSheets/Section5.css';
 import './StyleSheets/Section6.css';
+import './StyleSheets/Footer.css';
 import NavigationBar from './Components/NavigationBar';
 import Section1 from './Components/Section1';
 import Section2 from './Components/Section2';
