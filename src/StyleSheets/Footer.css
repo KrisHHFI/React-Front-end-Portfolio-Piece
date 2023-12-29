@@ -3,6 +3,7 @@
     background-color: black;
     color: white;
     display: flex;
+    font-size: 15px;
     height: 45px;
     justify-content: center;
 }

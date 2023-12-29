@@ -24,6 +24,10 @@
     justify-content: center;
 }
 
+.NavBarLink:hover a {
+    color: #0082ba;
+}
+
 .BurgerNav {
     display: none;
 }
