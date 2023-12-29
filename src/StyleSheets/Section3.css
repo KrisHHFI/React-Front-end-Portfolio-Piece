@@ -18,6 +18,11 @@
     position: relative;
 }
 
+.Product:hover {
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+
 .ProductImageContainer {
     flex: 1;
     display: flex;
@@ -47,6 +52,11 @@
     bottom: 30px;
     left: 35px;
     padding: 10px 15px 10px 15px;
+}
+
+.ProductTextButton:hover {
+    color: white;
+    background-color: black;
 }
 
 /* Mobile portrait view*/

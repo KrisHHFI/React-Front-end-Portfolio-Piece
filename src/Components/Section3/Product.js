@@ -12,7 +12,7 @@ export default function Product() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </div>
                 <div class="ProductTextButton">
-                    Excepteur
+                    <a href="">Excepteur</a>
                 </div>
             </div>
         </div>
