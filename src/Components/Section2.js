@@ -16,7 +16,7 @@ export default function Section2() {
                 </div>
             </div>
             <div class="Section2ImageContainer">
-                <img src={Image1} />
+                <img src={Image1} className="BounceOnHover"/>
             </div>
         </div>
     );

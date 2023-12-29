@@ -40,8 +40,8 @@
 .BurgerNav {
     display: none;
 }
-
-@media screen and (max-width: 800px) {
+/* Burger nav appears*/
+@media screen and (max-width: 900px) {
     .NavBar {
         justify-content: center;
     }
