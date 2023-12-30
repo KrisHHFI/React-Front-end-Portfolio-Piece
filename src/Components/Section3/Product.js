@@ -11,7 +11,7 @@ export default function Product() {
                 <div class="ProductText">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </div>
-                <div class="ProductTextButton">
+                <div class="BasicButton Section3Button">
                     <a href="">Excepteur</a>
                 </div>
             </div>

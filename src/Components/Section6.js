@@ -35,8 +35,8 @@ export default function Section6() {
                     <input type="checkbox" id="TermsAndConditions" name="TermsAndConditions" />
                     <label for="TermsAndConditions"> I agree to the terms and conditions.</label>
                 </div>
-                <div class="FormButton">
-                    Excepteur
+                <div class="BasicButton">
+                    <a href="">Excepteur</a>
                 </div>
             </form>
         </div>

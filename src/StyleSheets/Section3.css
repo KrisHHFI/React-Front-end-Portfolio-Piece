@@ -36,27 +36,19 @@
 
 .ProductTextContainer {
     flex: 1;
-    font-weight: bold;
-    text-transform: capitalize;
     border-top: 2px solid black;
 }
 
 .ProductText {
     font-size: 25px;
+    font-weight: bold;
     margin-top: 25px;
 }
 
-.ProductTextButton {
-    border: 2px solid black;
+.Section3Button {
     position: absolute;
     bottom: 30px;
     left: 35px;
-    padding: 10px 15px 10px 15px;
-}
-
-.ProductTextButton:hover {
-    color: white;
-    background-color: black;
 }
 
 /* Mobile portrait view*/
@@ -64,6 +56,11 @@
     .Product {
         height: 500px;
         width: 300px;
+    }
+
+    .Section3Button {
+        transform: translate(-50%, -50%);
+        left: 50%;
     }
 }
 
@@ -77,11 +74,5 @@
     .ProductText {
         font-size: 20px;
         margin-top: 5px;
-    }
-
-    .ProductTextButton {
-        bottom: 0;
-        transform: translate(-50%, -50%);
-        left: 50%;
     }
 }

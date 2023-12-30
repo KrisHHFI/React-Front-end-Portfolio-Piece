@@ -21,3 +21,20 @@ a {
 .Section3Title {
   color: white;
 }
+
+.BasicButton {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  color: white;
+  margin-top: 20px;
+  padding: 8px 25px 8px 25px;
+}
+
+.BasicButton a {
+  text-transform: uppercase;
+}
+
+.BasicButton:hover {
+  color: #0082ba;
+}

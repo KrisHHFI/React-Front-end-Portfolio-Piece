@@ -7,11 +7,12 @@
 }
 
 .Section2TextContainer {
-    align-items: center;
+    align-items: start;
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
+    text-align: left;
 }
 
 .Section2TextTitle {
@@ -22,7 +23,6 @@
 
 .Section2Text {
     font-size: 18px;
-    text-align: left;
     padding-top: 40px;
 }
 

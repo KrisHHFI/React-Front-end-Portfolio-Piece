@@ -1,4 +1,4 @@
-import './App.css';
+import './StyleSheets/Common.css';
 import './StyleSheets/NavigationBar.css';
 import './StyleSheets/Section1.css';
 import './StyleSheets/Section2.css';

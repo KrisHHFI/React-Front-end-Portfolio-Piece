@@ -1,6 +1,7 @@
 .PageContent6 {
     position: relative;
     display: flex;
+    font-size: 15px;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
@@ -48,14 +49,6 @@
 
 .PageContent6FormCheckBoxContainer input {
     flex: 1;
-}
-
-.FormButton {
-    background-color: black;
-    color: white;
-    padding: 10px 15px 10px 15px;
-    width: 90px;
-    border-radius: 10px;
 }
 
 @media screen and (max-width: 650px) {

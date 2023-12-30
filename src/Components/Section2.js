@@ -14,9 +14,12 @@ export default function Section2() {
                     Duis aute irure dolor in reprehenderit in voluptate.  <br /><br /> Velit esse cillum dolore eu fugiat nulla pariatur.
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </div>
+                <div class="BasicButton">
+                    <a href="">Excepteur</a>
+                </div>
             </div>
             <div class="Section2ImageContainer">
-                <img src={Image1} className="BounceOnHover"/>
+                <img src={Image1} className="BounceOnHover" />
             </div>
         </div>
     );
