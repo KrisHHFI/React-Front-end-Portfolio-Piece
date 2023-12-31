@@ -6,7 +6,7 @@ export default function Section2() {
     return (
         <div class="Section2">
             <div class="Section2TextContainer">
-                <div class="Section2TextTitle">
+                <div class="Section2TextTitle Blue">
                     Incididunt Ut Labore Et Dolore
                 </div>
                 <div class="Section2Text">

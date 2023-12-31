@@ -15,7 +15,24 @@
 
 .socialIcons img {
     height: 40px;
-    margin-right: 15px;
+    margin: 0 7px 0 7px;
+}
+
+.socialIcons .iconLink {
+    display: inline-block;
+    position: relative;
+}
+
+.socialIcons .hoverIcon {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.socialIcons .iconLink:hover .hoverIcon {
+    opacity: 1;
 }
 
 @media screen and (max-width: 800px) {
