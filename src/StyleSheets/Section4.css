@@ -9,7 +9,7 @@
     position: relative;
 }
 
-.TimelineItem { 
+.TimelineItem {
     display: flex;
     margin-bottom: 40px;
     width: 60%;
@@ -25,6 +25,10 @@
 .TimelineTitle {
     font-size: 30px;
     padding-bottom: 15px;
+}
+
+.TimelineText {
+    line-height: 1.4;
 }
 
 .TextLeft {

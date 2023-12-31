@@ -13,13 +13,10 @@ a {
 }
 
 .SectionTitle {
+  font-weight: bold;
   position: absolute;
   top: 40px;
   font-size: 30px;
-}
-
-.Section3Title {
-  color: white;
 }
 
 .BasicButton {
@@ -41,4 +38,8 @@ a {
 
 .Blue {
   color: #0082ba;
+}
+
+.White {
+  color: white;
 }
