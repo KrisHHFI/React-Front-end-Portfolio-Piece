@@ -1,6 +1,6 @@
 # React-Web-Application
 
-<img src=""/>
+<img src="https://images.squarespace-cdn.com/content/v1/587b630aebbd1ab22efeeb6b/20edb63d-4776-40bd-b7a6-354ae61e061c/ReactWebAppPromo.png"/>
 
 Check out the [demo video]().
 
