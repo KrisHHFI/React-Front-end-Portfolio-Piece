@@ -82,6 +82,7 @@
 
     .BurgerNavIcon {
         display: flex;
+        align-self: center;
     }
 
     .BurgerNav:hover .BurgerNavLinks {
