@@ -16,6 +16,6 @@ Check out the [demo video](https://youtu.be/4BfbvbWo2OA).
 ### About
 
 - The app was created during the end of 2023.
-- The aim of the project was to make a web application for a pretend company.
+- The aim of the project was to make a web application for a fictional company.
 - The focus of the project was the front-end.
 - The app was catered for both mobile and desktop view. 
